@@ -13,7 +13,7 @@ namespace Citysemcode
 		{
 			InitializeComponent();
 
-			MainPage = new NavigationPage(new Citysemcode.MainPage());
+			MainPage = new NavigationPage(new Citysemcode.Cadastro());
 		}
 
 		protected override void OnStart ()

@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Citysemcode.Cadastro">
+    <ContentPage.Content>
+        <StackLayout>
+         
+                <Label Text="Cadastro"
+           FontSize="25"
+           FontFamily="Arial"
+           TextColor="#000000"
+           VerticalOptions="Fill" 
+           HorizontalOptions="Center" />
+                <Label Text="Usuário"
+           FontSize="18"
+           FontFamily="Arial"
+           TextColor="#000000"
+           VerticalOptions="Fill" 
+           HorizontalOptions="Center" />
+                <Entry x:Name="Usuario"></Entry>
+               
+                   
+          <Label Text= "Senha"          
+           FontSize="18"
+           FontFamily="Arial"
+           TextColor="#000000"
+           VerticalOptions="Fill" 
+           HorizontalOptions="Center" />
+           <Entry x:Name="Senha"  IsPassword ="True"></Entry>
+                   
+                    
+
+                    <Label Text="Telefone"
+           FontSize="18"
+           FontFamily="Arial"
+           TextColor="#000000"
+           VerticalOptions="Fill" 
+           HorizontalOptions="Center" />
+          <Entry x:Name="telefone"></Entry>
+                
+           <Label Text="Endereço"
+           FontSize="18"
+           FontFamily="Arial"
+           TextColor="#000000"
+           VerticalOptions="Fill" 
+           HorizontalOptions="Center" />
+                <Entry x:Name="endereco"></Entry>
+                
+                <Button Text="Entrar" Clicked="Cadastrar"></Button>
+                
+       </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
