@@ -15,6 +15,19 @@ namespace Citysemcode
 		public Login ()
 		{
 			InitializeComponent ();
+
 		}
-	}
+        void Cadastrar(object sender, EventArgs args)
+        {
+            Navigation.PushAsync(new Cadastro());
+        }
+        void Entrar(object sender, EventArgs args)
+        {
+
+        }
+        public void Cadastro(string usuario, string senha, string email, string cidade)
+        {
+
+        }
+    }
 }

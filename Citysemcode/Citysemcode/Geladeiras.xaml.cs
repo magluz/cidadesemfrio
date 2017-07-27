@@ -3,22 +3,19 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+
 namespace Citysemcode
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class Cadastro : ContentPage
+	public partial class Geladeiras : ContentPage
 	{
-		public Cadastro ()
+		public Geladeiras (string cidade)
 		{
 			InitializeComponent ();
-        }
-
-        void Cadastrar(object sender, EventArgs args)
-        {
-            Pessoas
-            Navigation.PushAsync(new Login());
-        }
+            Cidade.Text = cidade;
+		}
 	}
 }

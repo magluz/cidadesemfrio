@@ -9,6 +9,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Citysemcode.Android", "City
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Citysemcode.iOS", "Citysemcode\Citysemcode.iOS\Citysemcode.iOS.csproj", "{6FF561EB-3450-4E72-B3FC-673B209FC2F6}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Class", "Class", "{6C20A5A6-B5A1-4B4D-98BB-2C53F02B8377}"
+	ProjectSection(SolutionItems) = preProject
+		Pessoas.cs = Pessoas.cs
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		Citysemcode\Citysemcode\Citysemcode.projitems*{03da4437-b31e-4000-8a0c-f9b6386fd33c}*SharedItemsImports = 4

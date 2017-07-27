@@ -23,8 +23,10 @@
            VerticalOptions="Fill" 
            HorizontalOptions="Center" />
             <Entry x:Name="Senha"  IsPassword ="True"></Entry>
-            <Button Text="Entrar"></Button>
-            <Button Text="Cadastre-se"></Button>
+            <Button Text="Entrar" Clicked="Entrar"></Button>
+           
+            <Button Text="Cadastre-se" Clicked="Cadastrar"></Button>
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

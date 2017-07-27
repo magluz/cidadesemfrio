@@ -27,27 +27,39 @@
            VerticalOptions="Fill" 
            HorizontalOptions="Center" />
            <Entry x:Name="Senha"  IsPassword ="True"></Entry>
-                   
-                    
 
-                    <Label Text="Telefone"
+
+            
+
+            <Label Text="Email"
            FontSize="18"
            FontFamily="Arial"
            TextColor="#000000"
            VerticalOptions="Fill" 
            HorizontalOptions="Center" />
-          <Entry x:Name="telefone"></Entry>
-                
-           <Label Text="Endereço"
+          <Entry x:Name="Email"></Entry>
+           
+            <Label Text="Cidade"
            FontSize="18"
            FontFamily="Arial"
            TextColor="#000000"
            VerticalOptions="Fill" 
            HorizontalOptions="Center" />
-                <Entry x:Name="endereco"></Entry>
-                
-                <Button Text="Entrar" Clicked="Cadastrar"></Button>
-                
+            <Picker x:Name="Cidades">
+                    
+                <Picker.Items>
+                    <x:String>Olinda</x:String>
+                    <x:String>Paulista</x:String>
+                    <x:String>Recife</x:String>
+                    <x:String>Caruaru</x:String>
+                </Picker.Items>
+                <Picker.SelectedIndex>
+                    0
+                </Picker.SelectedIndex>
+            </Picker>
+            
+            <Button Text="Cadastrar" Clicked="Cadastrar"></Button>
+            
        </StackLayout>
     </ContentPage.Content>
 </ContentPage>
