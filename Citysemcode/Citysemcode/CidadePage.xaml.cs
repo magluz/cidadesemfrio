@@ -15,27 +15,9 @@ namespace Citysemcode
     {
         public Cidade()
         {
-            Geladeira _geladeirasRecife_Num1 = new Geladeira()
-            {
-                Rua = "Rua Doctor Saulo Suassuna"
-            };
+            
 
-            Geladeira _geladeirasRecife_Num2 = new Geladeira()
-            {
-                Rua = "Rua Doctor Saulo Suassuna"
-            };
-
-            List<Geladeira> _listaGeladeirasRecife = new List<Geladeira>();
-            _listaGeladeirasRecife.Add(_geladeirasRecife_Num1);
-            _listaGeladeirasRecife.Add(_geladeirasRecife_Num2);
-
-            Cidades cidadeRecife = new Cidades()
-            {
-                Nome = "Recife",
-                Geladeiras = _listaGeladeirasRecife
-            };
-
-            App.listaCidades.Add(cidadeRecife);
+            
 
             InitializeComponent();
 

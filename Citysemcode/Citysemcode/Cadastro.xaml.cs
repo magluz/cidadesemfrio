@@ -9,6 +9,7 @@ using Citysemcode.Class;
 
 namespace Citysemcode
 {
+   
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class Cadastro : ContentPage
 	{
@@ -20,7 +21,7 @@ namespace Citysemcode
         void Cadastrar(object sender, EventArgs args)
         {
             Pessoa person = new Pessoa();
-
+           
             person.Cidade = Cidade.SelectedItem.ToString();
             person.Usuario = Usuario.Text;
             person.Senha = Senha.Text;
@@ -30,5 +31,6 @@ namespace Citysemcode
 
             Navigation.PushAsync(new Login());
         }
+        
 	}
 }

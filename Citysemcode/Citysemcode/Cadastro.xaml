@@ -1,11 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+              BackgroundColor="#E6E6E6"
              x:Class="Citysemcode.Cadastro">
     <ContentPage.Content>
         <StackLayout>
          
+            
+           
+            
                 <Label Text="Cadastro"
+            
            FontSize="25"
            FontFamily="Arial"
            TextColor="#000000"
@@ -28,9 +33,7 @@
            HorizontalOptions="Center" />
            <Entry x:Name="Senha"  IsPassword ="True"></Entry>
 
-
             
-
             <Label Text="Email"
            FontSize="18"
            FontFamily="Arial"
@@ -48,16 +51,37 @@
             <Picker x:Name="Cidade">
                     
                 <Picker.Items>
+                    <x:String>Selecione</x:String>
                     <x:String>Olinda</x:String>
                     <x:String>Paulista</x:String>
                     <x:String>Recife</x:String>
                     <x:String>Caruaru</x:String>
+                    <x:String>Jaboatão dos Guararapes</x:String>
                 </Picker.Items>
                 <Picker.SelectedIndex>
                     0
                 </Picker.SelectedIndex>
             </Picker>
-            
+
+            <Label Text="Tipo"
+           FontSize="18"
+           FontFamily="Arial"
+           TextColor="#000000"
+           VerticalOptions="Fill" 
+           HorizontalOptions="Center" />
+            <Picker x:Name="Tipo" Title="Tipo">
+                <Picker.Items>
+                    <x:String>Selecione</x:String>
+                    <x:String>Voluntário</x:String>
+                    <x:String>Doador</x:String>
+                </Picker.Items>
+                <Picker.SelectedIndex>
+                    0
+                </Picker.SelectedIndex>
+            </Picker>
+
+
+
             <Button Text="Cadastrar" Clicked="Cadastrar"></Button>
             
        </StackLayout>
