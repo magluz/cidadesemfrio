@@ -45,7 +45,7 @@
            TextColor="#000000"
            VerticalOptions="Fill" 
            HorizontalOptions="Center" />
-            <Picker x:Name="Cidades">
+            <Picker x:Name="Cidade">
                     
                 <Picker.Items>
                     <x:String>Olinda</x:String>

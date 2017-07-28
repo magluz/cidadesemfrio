@@ -1,14 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Citysemcode.Geladeiras">
+             x:Class="Citysemcode.Cidade">
     <ContentPage.Content>
         <StackLayout>
-            <ListView x:Name="GeladeirasList">
+            <ListView x:Name="Cidades" ItemSelected="Cidades_ItemSelected">
                 <ListView.ItemTemplate>
-                    <DataTemplate>
-                        <TextCell Text="Geladeira localizada na rua:"
-                                  Detail="{Binding Rua}"></TextCell>
+                    <DataTemplate x:Name="NomeCidade">
+                        <ImageCell Text="{Binding Nome}"></ImageCell>
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>

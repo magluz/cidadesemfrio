@@ -17,15 +17,5 @@ public static class Pessoas
         Email = _email;
         Cidade = _cidade; 
     }
-
-    public void cadrastrar(string usuario, string senha, string email)
-    {
-
-    }
-
-    public static void logar(string usuario, string senha)
-    {
-
-    }
 }
 

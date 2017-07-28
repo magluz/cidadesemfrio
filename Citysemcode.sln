@@ -1,18 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26430.16
+VisualStudioVersion = 15.0.26430.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Citysemcode", "Citysemcode\Citysemcode\Citysemcode.shproj", "{38C8A372-7832-4807-951C-8DF550A52423}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Citysemcode.Android", "Citysemcode\Citysemcode.Android\Citysemcode.Android.csproj", "{03DA4437-B31E-4000-8A0C-F9B6386FD33C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Citysemcode.iOS", "Citysemcode\Citysemcode.iOS\Citysemcode.iOS.csproj", "{6FF561EB-3450-4E72-B3FC-673B209FC2F6}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Class", "Class", "{6C20A5A6-B5A1-4B4D-98BB-2C53F02B8377}"
-	ProjectSection(SolutionItems) = preProject
-		Pessoas.cs = Pessoas.cs
-	EndProjectSection
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution

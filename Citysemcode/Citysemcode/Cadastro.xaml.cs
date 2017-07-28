@@ -5,6 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using Citysemcode.Class;
+
 namespace Citysemcode
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
@@ -12,12 +14,20 @@ namespace Citysemcode
 	{
 		public Cadastro ()
 		{
-			InitializeComponent ();
+			InitializeComponent();
         }
 
         void Cadastrar(object sender, EventArgs args)
         {
-            Pessoas
+            Pessoa person = new Pessoa();
+
+            person.Cidade = Cidade.SelectedItem.ToString();
+            person.Usuario = Usuario.Text;
+            person.Senha = Senha.Text;
+            person.Email = Email.Text;
+
+            App.listaPessoas.Add(person);
+
             Navigation.PushAsync(new Login());
         }
 	}

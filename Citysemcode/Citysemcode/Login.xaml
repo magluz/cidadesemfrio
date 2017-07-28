@@ -9,20 +9,25 @@
            TextColor="#000000"
            VerticalOptions="Fill" 
            HorizontalOptions="Center" />
+            
             <Label Text="Usuário"
            FontSize="18"
            FontFamily="Arial"
            TextColor="#000000"
            VerticalOptions="Fill" 
            HorizontalOptions="Center" />
-            <Entry x:Name="Usuario"></Entry>
+            
+            <Entry x:Name="UsuarioLogin"></Entry>
+            
             <Label Text="Senha"
            FontSize="18"
            FontFamily="Arial"
            TextColor="#000000"
            VerticalOptions="Fill" 
            HorizontalOptions="Center" />
-            <Entry x:Name="Senha"  IsPassword ="True"></Entry>
+            
+            <Entry x:Name="SenhaLogin"  IsPassword ="True"></Entry>
+            
             <Button Text="Entrar" Clicked="Entrar"></Button>
            
             <Button Text="Cadastre-se" Clicked="Cadastrar"></Button>
