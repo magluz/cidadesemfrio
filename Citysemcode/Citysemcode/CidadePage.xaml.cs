@@ -14,16 +14,10 @@ namespace Citysemcode
     public partial class Cidade : ContentPage
     {
         public Cidade()
-        {
-            
-
-            
-
+        {            
             InitializeComponent();
 
             Cidades.ItemsSource = App.listaCidades;
-
-            //BindingContext = this;
         }
 
         public async void Cidades_ItemSelected(object sender, SelectedItemChangedEventArgs e)

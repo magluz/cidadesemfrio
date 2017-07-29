@@ -109,8 +109,6 @@ namespace Citysemcode
 
             App.listaCidades.Add(cidadePaulista);
 
-            App.listaCidades.Add(cidadeOlinda);
-
             List<Geladeira> _listaGeladeirasCaruaru = new List<Geladeira>();
             _listaGeladeirasCaruaru.Add(_geladeirasCaruaru_Num1);
             _listaGeladeirasCaruaru.Add(_geladeirasCaruaru_Num2);
@@ -120,6 +118,8 @@ namespace Citysemcode
                 Nome = "Caruaru",
                 Geladeiras = _listaGeladeirasCaruaru
             };
+
+            App.listaCidades.Add(cidadeCaruaru);
 
             List<Geladeira> _listaGeladeirasJaboatao = new List<Geladeira>();
             _listaGeladeirasJaboatao.Add(_geladeirasJaboatao_Num1);
@@ -132,7 +132,6 @@ namespace Citysemcode
             };
 
             App.listaCidades.Add(cidadeJaboatao);
-
 
         }
 

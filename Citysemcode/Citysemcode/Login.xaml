@@ -2,7 +2,8 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              BackgroundColor="#E6E6E6"
-             x:Class="Citysemcode.Login">
+             x:Class="Citysemcode.Login"
+             Title="Login">
     <ContentPage.Content>
         <StackLayout>
             <Label Text="Login" FontSize="25"
@@ -11,14 +12,14 @@
            VerticalOptions="Fill" 
            HorizontalOptions="Center" />
             
-            <Label Text="Nome"
+            <Label Text="Email"
            FontSize="18"
            FontFamily="Arial"
            TextColor="#000000"
            VerticalOptions="Fill" 
            HorizontalOptions="Center" />
             
-            <Entry x:Name="UsuarioLogin"></Entry>
+            <Entry x:Name="EmailLogin"></Entry>
             
             <Label Text="Senha"
            FontSize="18"

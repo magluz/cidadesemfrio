@@ -2,7 +2,8 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
               BackgroundColor="#E6E6E6"
-             x:Class="Citysemcode.Cadastro">
+             x:Class="Citysemcode.Cadastro"
+             Title="Cadastro">
     <ContentPage.Content>
         <StackLayout>
          
@@ -16,13 +17,13 @@
            TextColor="#000000"
            VerticalOptions="Fill" 
            HorizontalOptions="Center" />
-                <Label Text="Usuário"
+                <Label Text="Nome"
            FontSize="18"
            FontFamily="Arial"
            TextColor="#000000"
            VerticalOptions="Fill" 
            HorizontalOptions="Center" />
-                <Entry x:Name="Usuario"></Entry>
+                <Entry x:Name="Nome"></Entry>
                
                    
           <Label Text= "Senha"          

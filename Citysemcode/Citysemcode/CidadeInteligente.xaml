@@ -1,12 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             BackgroundColor="#E6E6E6"
-             x:Class="Citysemcode.Geladeiras"
-             Title="Geladeiras da cidade selecionada">
+             x:Class="Citysemcode.CidadeInteligente"
+             Title="Geladeiras da sua cidade">
     <ContentPage.Content>
         <StackLayout>
-            <ListView x:Name="GeladeirasList">
+            <ListView x:Name="GeladeirasInteligentesList">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <TextCell Text="Geladeira localizada na rua:"
@@ -14,6 +13,7 @@
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>
+            <Button Text="Visualizar todas as Geladeiras" Clicked="Button_Clicked"></Button>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
