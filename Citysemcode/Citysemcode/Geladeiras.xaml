@@ -3,14 +3,15 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              BackgroundColor="#E6E6E6"
              x:Class="Citysemcode.Geladeiras"
-             Title="Geladeiras da cidade selecionada">
+             Title="Geladeiras da cidade selecionada"
+             BackgroundImage="Imagens/TelaInicial.jpg">
     <ContentPage.Content>
         <StackLayout>
             <ListView x:Name="GeladeirasList">
                 <ListView.ItemTemplate>
                     <DataTemplate>
-                        <TextCell Text="Geladeira localizada na rua:"
-                                  Detail="{Binding Rua}"></TextCell>
+                        <TextCell Text="Geladeira localizada na rua:" TextColor="Red"
+                                  Detail="{Binding Rua}" DetailColor="Black"></TextCell>
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>

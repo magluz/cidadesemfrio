@@ -3,53 +3,54 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
               BackgroundColor="#E6E6E6"
              x:Class="Citysemcode.Cadastro"
-             Title="Cadastro">
+             Title="Cadastro"
+             BackgroundImage="CadastroFundo.jpg">
     <ContentPage.Content>
-        <StackLayout>
-         
-            
-           
-            
-                <Label Text="Cadastro"
+        <StackLayout Padding="0, 80, 0, 0">
+
+            <!--<Label Text="Cadastro"
             
            FontSize="25"
            FontFamily="Arial"
            TextColor="#000000"
            VerticalOptions="Fill" 
-           HorizontalOptions="Center" />
+           HorizontalOptions="Center" />-->
+            
                 <Label Text="Nome"
            FontSize="18"
            FontFamily="Arial"
-           TextColor="#000000"
+           TextColor="White"
            VerticalOptions="Fill" 
            HorizontalOptions="Center" />
-                <Entry x:Name="Nome"></Entry>
+                <Entry x:Name="Nome" TextColor="White"></Entry>
                
                    
           <Label Text= "Senha"          
            FontSize="18"
            FontFamily="Arial"
-           TextColor="#000000"
+           TextColor="White"
            VerticalOptions="Fill" 
            HorizontalOptions="Center" />
-           <Entry x:Name="Senha"  IsPassword ="True"></Entry>
+           <Entry x:Name="Senha"  IsPassword ="True" TextColor="White"></Entry>
 
             
             <Label Text="Email"
            FontSize="18"
            FontFamily="Arial"
-           TextColor="#000000"
+           TextColor="White"
            VerticalOptions="Fill" 
            HorizontalOptions="Center" />
-          <Entry x:Name="Email"></Entry>
+            
+          <Entry x:Name="Email" TextColor="White"></Entry>
            
             <Label Text="Cidade"
            FontSize="18"
            FontFamily="Arial"
-           TextColor="#000000"
+           TextColor="White"
            VerticalOptions="Fill" 
            HorizontalOptions="Center" />
-            <Picker x:Name="Cidade">
+              
+            <Picker x:Name="Cidade" TextColor="White">
                     
                 <Picker.Items>
                     <x:String>Selecione</x:String>
@@ -67,10 +68,10 @@
             <Label Text="Tipo"
            FontSize="18"
            FontFamily="Arial"
-           TextColor="#000000"
+           TextColor="White"
            VerticalOptions="Fill" 
            HorizontalOptions="Center" />
-            <Picker x:Name="Tipo" Title="Tipo">
+            <Picker x:Name="Tipo" Title="Tipo" TextColor="White">
                 <Picker.Items>
                     <x:String>Selecione</x:String>
                     <x:String>Voluntário</x:String>
@@ -83,7 +84,7 @@
 
 
 
-            <Button Text="Cadastrar" Clicked="Cadastrar"></Button>
+            <Button Text="Cadastrar" Clicked="Cadastrar" BackgroundColor="White"></Button>
             
        </StackLayout>
     </ContentPage.Content>

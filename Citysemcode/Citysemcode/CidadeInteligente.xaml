@@ -2,14 +2,15 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Citysemcode.CidadeInteligente"
-             Title="Geladeiras da sua cidade">
+             Title="Geladeiras da sua cidade"
+             BackgroundImage="Imagens/TelaInicial.jpg">
     <ContentPage.Content>
         <StackLayout>
             <ListView x:Name="GeladeirasInteligentesList">
                 <ListView.ItemTemplate>
                     <DataTemplate>
-                        <TextCell Text="Geladeira localizada na rua:"
-                                  Detail="{Binding Rua}"></TextCell>
+                        <TextCell Text="Geladeira localizada na rua:" TextColor="Red"
+                                  Detail="{Binding Rua}" DetailColor="Black"></TextCell>
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>

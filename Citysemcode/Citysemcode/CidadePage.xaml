@@ -3,13 +3,14 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              BackgroundColor="#E6E6E6"
              x:Class="Citysemcode.Cidade"
-             Title="Lista de Cidades">
+             Title="Lista de Cidades"
+             BackgroundImage="Imagens/TelaInicial.jpg">
     <ContentPage.Content>
         <StackLayout>
             <ListView x:Name="Cidades" ItemSelected="Cidades_ItemSelected">
                 <ListView.ItemTemplate>
                     <DataTemplate x:Name="NomeCidade">
-                        <ImageCell Text="{Binding Nome}"></ImageCell>
+                        <ImageCell Text="{Binding Nome}" TextColor="Black"></ImageCell>
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>
