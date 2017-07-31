@@ -9,12 +9,12 @@
             <ListView x:Name="GeladeirasInteligentesList">
                 <ListView.ItemTemplate>
                     <DataTemplate>
-                        <TextCell Text="Geladeira localizada na rua:" TextColor="Red"
+                        <TextCell Text="Geladeira localizada na rua:" TextColor="#426CD8"
                                   Detail="{Binding Rua}" DetailColor="Black"></TextCell>
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>
-            <Button Text="Visualizar todas as Geladeiras" Clicked="Button_Clicked"></Button>
+            <Button Text="Visualizar todas as Geladeiras" Clicked="Button_Clicked" BackgroundColor="#426CD8" TextColor="DarkRed"></Button>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

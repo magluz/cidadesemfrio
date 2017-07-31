@@ -84,7 +84,7 @@
 
 
 
-            <Button Text="Cadastrar" Clicked="Cadastrar" BackgroundColor="White"></Button>
+            <Button Text="Cadastrar" Clicked="Cadastrar" BackgroundColor="White" TextColor="#426CD8"></Button>
             
        </StackLayout>
     </ContentPage.Content>

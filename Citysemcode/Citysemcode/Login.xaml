@@ -4,9 +4,9 @@
              BackgroundColor="#E6E6E6"
              x:Class="Citysemcode.Login"
              Title="Login"
-             BackgroundImage="LoginFundo.jpg">
+             BackgroundImage="telaloginnova.jpg">
     <ContentPage.Content>
-        <StackLayout>
+        <StackLayout Padding="0, 160, 0, 0">
             <!--<Label Text="Login" FontSize="25"
            FontFamily="Arial"
            TextColor="#000000"
@@ -16,24 +16,24 @@
             <Label Text="Email"
            FontSize="18"
            FontFamily="Arial"
-           TextColor="#000000"
+           TextColor="#426CD8"
            VerticalOptions="Fill" 
            HorizontalOptions="Center" />
-            
-            <Entry x:Name="EmailLogin"></Entry>
-            
+
+            <Entry x:Name="EmailLogin" TextColor="#426CD8"></Entry>
+
             <Label Text="Senha"
            FontSize="18"
            FontFamily="Arial"
-           TextColor="#000000"
+           TextColor="#426CD8"
            VerticalOptions="Fill" 
-           HorizontalOptions="Center" />
-            
-            <Entry x:Name="SenhaLogin"  IsPassword ="True"></Entry>
-            
-            <Button Text="Entrar" Clicked="Entrar"></Button>
-           
-            <Button Text="Cadastre-se" Clicked="Cadastrar"></Button>
+           HorizontalOptions="Center"/>
+
+            <Entry x:Name="SenhaLogin"  IsPassword ="True" TextColor="#426CD8"></Entry>
+
+            <Button Text="Entrar" Clicked="Entrar" BackgroundColor="#426CD8" TextColor="White"></Button>
+
+            <Button Text="Cadastre-se" Clicked="Cadastrar" BackgroundColor="#426CD8" TextColor="White"></Button>
 
         </StackLayout>
     </ContentPage.Content>

@@ -13,19 +13,12 @@ namespace Citysemcode
 	public partial class SplashPage : ContentPage
 	{
 
-        public SplashPage ()
-		{
-			InitializeComponent ();
-
-            Func<bool> convertMethod = NavigateSplash;
-
-            Device.StartTimer(TimeSpan.FromSeconds(5), convertMethod);
-        }
-
-        public bool NavigateSplash()
+        public SplashPage()
         {
-            Navigation.PushAsync(new MainPage());
-            return true;
+            InitializeComponent();
+
+            Navigation.PushAsync(new Login());
         }
+
 	}
 }

@@ -10,7 +10,7 @@
             <ListView x:Name="GeladeirasList">
                 <ListView.ItemTemplate>
                     <DataTemplate>
-                        <TextCell Text="Geladeira localizada na rua:" TextColor="Red"
+                        <TextCell Text="Geladeira localizada na rua:" TextColor="#426CD8"
                                   Detail="{Binding Rua}" DetailColor="Black"></TextCell>
                     </DataTemplate>
                 </ListView.ItemTemplate>

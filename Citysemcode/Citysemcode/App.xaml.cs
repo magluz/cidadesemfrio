@@ -16,8 +16,9 @@ namespace Citysemcode
         {
             InitializeComponent();
 
+            MainPage = new NavigationPage(new SplashPage());
+
             #region Geladeiras
-            MainPage = new NavigationPage(new Login());
             Geladeira _geladeirasRecife_Num1 = new Geladeira()
             {
                 Rua = "Rua Doctor Saulo Suassuna"
